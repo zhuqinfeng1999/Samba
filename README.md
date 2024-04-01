@@ -46,11 +46,11 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 
 ## Training Samba
 
-`bash tools/dist_train.sh /mmsegmentation/configs/samba/zqf_samba_upernet-15k_loveda-512x512_6e4.py 2 --work-dir /mmsegmentation/output/sambaupernet --amp`
+`bash tools/dist_train.sh /mmsegmentation/configs/samba/samba_upernet-15k_loveda-512x512_6e4.py 2 --work-dir /mmsegmentation/output/sambaupernet --amp`
 
 ## Testing Samba
 
-`bash tools/dist_test.sh /mmsegmentation/configs/samba/zqf_samba_upernet-15k_loveda-512x512_6e4.py \ /mmsegmentation/output/sambaupernet/iter_15000.pth 2 --out /mmsegmentation/visout/sambaupernet`
+`bash tools/dist_test.sh /mmsegmentation/configs/samba/samba_upernet-15k_loveda-512x512_6e4.py \ /mmsegmentation/output/sambaupernet/iter_15000.pth 2 --out /mmsegmentation/visout/sambaupernet`
 
 ## Paper
 
