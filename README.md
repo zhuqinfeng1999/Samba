@@ -40,15 +40,15 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 
 #### Model file and config file
 
-- The model file Samba.py should be put into /mmsegmentation/
+- The model file Samba.py can be found in /mmsegmentation/mmseg/models/backbones/
 
-- The config file samba_upernet.py for the combination of backbone and decoder head samba_upernet should be put into /mmsegmentation/configs/_base_/models
+- The config file samba_upernet.py for the combination of backbone and decoder head samba_upernet can be found in /mmsegmentation/configs/_base_/models
 
-- The config file samba_upernet-15k_loveda-512x512_6e4.py for training should be put into /mmsegmentation/configs/samba/
+- The config file samba_upernet-15k_loveda-512x512_6e4.py for training can be found in /mmsegmentation/configs/samba/
 
 ## Training Samba
 
-`bash tools/dist_train.sh mmsegmentation/configs/samba/zqf_samba_upernet-15k_loveda-512x512_6e4.py 2 --work-dir mmsegmentation/output/sambaupernet --amp`
+`bash tools/dist_train.sh /mmsegmentation/configs/samba/zqf_samba_upernet-15k_loveda-512x512_6e4.py 2 --work-dir /mmsegmentation/output/sambaupernet --amp`
 
 ## Testing Samba
 
