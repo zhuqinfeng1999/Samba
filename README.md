@@ -52,9 +52,13 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 
 `bash tools/dist_test.sh /mmsegmentation/configs/samba/samba_upernet-15k_loveda-512x512_6e4.py \ /mmsegmentation/output/sambaupernet/iter_15000.pth 2 --out /mmsegmentation/visout/sambaupernet`
 
-## Paper
+## Citation
 
+If you find this work useful in your research, please consider cite:
 
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
