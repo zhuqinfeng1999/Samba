@@ -18,8 +18,6 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 * Install Mamba: execute pip install causal-conv1d==1.1.1 and pip install mamba-ssm
 * Install apex-amp, pyyaml, timm, tlt
 
-### Integrated into the mmseg framework
-
 #### LoveDA datasets
 
 * The LoveDA datasets can be found here https://github.com/Junjue-Wang/LoveDA.
