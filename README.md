@@ -1,12 +1,12 @@
-# Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model
+# [Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model](https://arxiv.org/abs/)
 
-This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {Arxiv Paper}
+This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {[Arxiv Paper](https://arxiv.org/abs/)}
 
 ![image](https://github.com/zhuqinfeng1999/Samba/assets/34743935/723109f3-4e5b-45c2-ad4f-492a87277075)
 
 ## Abstract
 
-Remotely sensed images generally possess very high resolutions, making the semantic segmentation for remote sensing challenging. The commonly used methods for processing semantic segmentation are based on the Convolutional Neural Network (CNN) and Vision Transformer (ViT). However, due to the limitation of the receptive field in CNN, and the limitation of handling long sequences in ViT, it is difficult for the networks to handle high-resolution images. Inspired by Mamba, which is based on the State Space Model (SSM), capturing global semantic information with low computational complexity, we propose a semantic segmentation framework for remote sensing images, named Samba. The proposed framework utilizes an encoder-decoder architecture, employing Samba blocks as the encoder, which is designed for efficient image feature extraction to extract multi-level semantic information effectively, and UperNet as the decoder. We evaluate Samba on the LoveDA dataset, comparing it against top-performing CNN and ViT methods. The results reveal that Samba achieved unparalleled performance on LoveDA. This represents that the proposed Samba method is an effective application of the State Space Model in remote sensing image semantic segmentation, setting a benchmark for Mamba-based techniques in semantic segmentation of remotely sensed images. The source code and baseline implementations are available at https://github.com/zhuqinfeng1999/Samba.
+High-resolution remotely sensed images poses a challenge for commonly used semantic segmentation methods such as Convolutional Neural Network (CNN) and Vision Transformer (ViT). CNN-based methods struggle with handling such high-resolution images due to their limited receptive field, while ViT faces challenges to handle long sequences. Inspired by Mamba, which adopts a State Space Model (SSM) to efficiently capture global semantic information, we propose a semantic segmentation framework for high-resolution remotely sensed images, named Samba. Samba utilizes an encoder-decoder architecture, with Samba blocks serving as the encoder for efficient multi-level semantic information extraction, and UperNet functioning as the decoder. We evaluate Samba on the LoveDA dataset, comparing its performance against top-performing CNN and ViT methods. The results reveal that Samba achieved unparalleled performance on LoveDA. This represents that the proposed Samba is an effective application of the SSM in semantic segmentation of remotely sensed images, setting a new benchmark in performance for Mamba-based techniques in this specific application. The source code and baseline implementations are available at https://github.com/zhuqinfeng1999/Samba.
 
 ## Installation
 
@@ -62,4 +62,4 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-We acknowledge all the authors of the employed public datasets, allowing the community to use these valuable resources for research purposes. We also thank the authors of Mamba, SiMBA, MMSegmentation for making their valuable code publicly available.
+We acknowledge all the authors of the employed public datasets, allowing the community to use these valuable resources for research purposes. We also thank the authors of [Mamba](https://github.com/state-spaces/mamba), [SiMBA](https://github.com/badripatro/simba), [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) for making their valuable code publicly available.
