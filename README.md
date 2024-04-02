@@ -1,6 +1,6 @@
 # [Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model](https://arxiv.org/abs/)
 
-This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {[Arxiv Paper](https://arxiv.org/abs/)}
+This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {[Arxiv Paper](https://arxiv.org/abs/)} The paper will be released soon.
 
 ![image](https://github.com/zhuqinfeng1999/Samba/assets/34743935/723109f3-4e5b-45c2-ad4f-492a87277075)
 
@@ -55,6 +55,8 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 ## Citation
 
 If you find this work useful in your research, please consider cite:
+
+The paper will be released soon.
 
 ## License
 
