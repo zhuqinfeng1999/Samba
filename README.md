@@ -79,6 +79,13 @@ If you find this work useful in your research, please consider cite:
   journal={arXiv preprint arXiv:2404.01705},
   year={2024}
 }
+
+@article{zhu2024rethinking,
+  title={Rethinking Scanning Strategies with Vision Mamba in Semantic Segmentation of Remote Sensing Imagery: An Experimental Study},
+  author={Zhu, Qinfeng and Fang, Yuan and Cai, Yuanzhi and Chen, Cheng and Fan, Lei},
+  journal={arXiv preprint arXiv:2405.08493},
+  year={2024}
+}
 ```
 
 ## License
