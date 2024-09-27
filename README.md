@@ -1,8 +1,10 @@
-# [Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model](https://arxiv.org/abs/2404.01705)
+# [Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model](https://doi.org/10.1016/j.heliyon.2024.e38495)
 
-This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {[Arxiv Paper](https://arxiv.org/abs/2404.01705)}
+This is the official code repository for "Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model". {[Heliyon Paper](https://doi.org/10.1016/j.heliyon.2024.e38495)}
+The paper has been accepted by Heliyon.
 
-![image](https://github.com/zhuqinfeng1999/Samba/assets/34743935/723109f3-4e5b-45c2-ad4f-492a87277075)
+![image](https://github.com/user-attachments/assets/2f4eb159-db36-476e-aba9-e56ab07b5324)
+
 
 [![GitHub stars](https://badgen.net/github/stars/zhuqinfeng1999/Samba)](https://github.com//zhuqinfeng1999/Samba)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
@@ -10,11 +12,11 @@ This is the official code repository for "Samba: Semantic Segmentation of Remote
 
 ## Abstract
 
-High-resolution remotely sensed images pose a challenge for commonly used semantic segmentation methods such as Convolutional Neural Network (CNN) and Vision Transformer (ViT). CNN-based methods struggle with handling such high-resolution images due to their limited receptive field, while ViT faces challenges in handling long sequences. Inspired by Mamba, which adopts a State Space Model (SSM) to efficiently capture global semantic information, we propose a semantic segmentation framework for high-resolution remotely sensed images, named Samba. Samba utilizes an encoder-decoder architecture, with Samba blocks serving as the encoder for efficient multi-level semantic information extraction, and UperNet functioning as the decoder. We evaluate Samba on the LoveDA, ISPRS Vaihingen, and ISPRS Potsdam datasets, comparing its performance against top-performing CNN and ViT methods. The results reveal that Samba achieved unparalleled performance on commonly used remote sensing datasets for semantic segmentation. Our proposed Samba demonstrates for the first time the effectiveness of SSM in semantic segmentation of remotely sensed images, setting a new benchmark in performance for Mamba-based techniques in this specific application. The source code and baseline implementations are available at https://github.com/zhuqinfeng1999/Samba.
+High-resolution remotely sensed images pose challenges to traditional semantic segmentation networks, such as Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). CNN-based methods struggle to handle high-resolution images due to their limited receptive field, while ViT-based methods, despite having a global receptive field, face challenges when processing long sequences. Inspired by the Mamba network, which is based on a state space model (SSM) to efficiently capture global semantic information, we propose a semantic segmentation framework for high-resolution remotely sensed imagery, named Samba. Samba utilizes an encoder-decoder architecture, with multiple Samba blocks serving as the encoder to efficiently extract multi-level semantic information, and UperNet functioning as the decoder. We evaluate Samba on the LoveDA, ISPRS Vaihingen, and ISPRS Potsdam datasets using the mIoU and mF1 metrics, and compare it with top-performing CNN-based and ViT-based methods. The results demonstrate that Samba achieves unparalleled performance on commonly used remotely sensed datasets for semantic segmentation. Samba is the first to demonstrate the effectiveness of SSM in segmenting remotely sensed imagery, setting a new performance benchmark for Mamba-based techniques in this domain of semantic segmentation. The source code and baseline implementations are available at https://github.com/zhuqinfeng1999/Samba.
 
 ## Segmentation Results
 
-![对比](https://github.com/zhuqinfeng1999/Samba/assets/34743935/f2cac6e0-7669-4add-8739-79a3f5467603)
+![image](https://github.com/user-attachments/assets/e1ce62b2-0f41-48ff-822a-c39b0f3780d6)
 
 ## Installation
 
@@ -73,11 +75,15 @@ Requirements: Ubuntu 20.04, CUDA 12.4
 If you find this work useful in your research, please consider cite:
 
 ```
-@article{zhu2024samba,
-  title={Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model},
-  author={Zhu, Qinfeng and Cai, Yuanzhi and Fang, Yuan and Yang, Yihan and Chen, Cheng and Fan, Lei and Nguyen, Anh},
-  journal={arXiv preprint arXiv:2404.01705},
-  year={2024}
+@article{ZHU2024e38495,
+title = {Samba: Semantic Segmentation of Remotely Sensed Images with State Space Model},
+journal = {Heliyon},
+pages = {e38495},
+year = {2024},
+issn = {2405-8440},
+doi = {https://doi.org/10.1016/j.heliyon.2024.e38495},
+url = {https://www.sciencedirect.com/science/article/pii/S2405844024145264},
+author = {Qinfeng Zhu and Yuanzhi Cai and Yuan Fang and Yihan Yang and Cheng Chen and Lei Fan and Anh Nguyen},
 }
 
 @article{zhu2024rethinking,
